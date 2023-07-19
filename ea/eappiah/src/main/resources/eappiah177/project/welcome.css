@@ -1,0 +1,9 @@
+.navbuttons{
+-fx-background-color: #140620;
+-fx-background-radius:0px 5px 5px 0px;
+}
+.navbuttons:hover{
+-fx-border:solid;
+-fx-border-width: 0px 0px 0px 3px;
+-fx-border-color: #4c214b;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="597.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eappiah177.project.DashboardController">
+   <children>
+      <VBox alignment="CENTER" layoutX="32.0" layoutY="108.0" />
+      <VBox alignment="CENTER" layoutX="42.0" layoutY="118.0" />
+      <HBox alignment="CENTER" layoutX="32.0" layoutY="21.0" spacing="20.0">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Selling Price Summary">
+                     <font>
+                        <Font name="Comic Sans MS" size="12.0" />
+                     </font>
+                  </Label>
+                  <PieChart fx:id="sellingPricePieChart" prefHeight="217.0" prefWidth="238.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Buying Price Summary">
+                     <font>
+                        <Font name="Comic Sans MS" size="12.0" />
+                     </font>
+                  </Label>
+                  <PieChart fx:id="buyingPricePieChart" prefHeight="217.0" prefWidth="238.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Quantity Summary">
+                     <font>
+                        <Font name="Comic Sans MS" size="12.0" />
+                     </font>
+                  </Label>
+                  <PieChart fx:id="quantityPieChart" prefHeight="217.0" prefWidth="238.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+
+
+</Pane>
